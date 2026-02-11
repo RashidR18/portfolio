@@ -7,7 +7,13 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "*"
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://portfolio-frontend-iota-indol.vercel.app/"
+  ],
+  methods: ["GET","POST","PUT","DELETE"],
+  credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
