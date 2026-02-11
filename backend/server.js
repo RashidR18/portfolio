@@ -6,17 +6,8 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: [
-    "https://portfolio-frontend-iota-indol.vercel.app",
-    "http://localhost:5173"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type"],
-  credentials: true
-}));
+app.use(cors({ origin: "*" }));
 
-app.options("*", cors()); // important
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
