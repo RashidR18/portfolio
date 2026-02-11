@@ -3,6 +3,7 @@
 Live Website:
 🔗 https://portfolio-frontend-iota-indol.vercel.app/
 
+
 🚀 About This Project
 
 This is my personal developer portfolio website built to showcase my skills, projects, and experience as a MERN Stack Developer.
@@ -25,6 +26,7 @@ The website represents my work, technical skills, and provides a way for recruit
 📬 Contact form
 
 🌙 Clean and minimal design
+
 
 🚀 Deployed on Vercel
 
@@ -51,37 +53,51 @@ Git & GitHub
 
 Framer Motion (for animations)
 
+
 📂 Folder Structure
+
 portfolio
+
  ┣ src
+ 
  ┃ ┣ components
+ 
  ┃ ┣ pages
+ 
  ┃ ┣ assets
+ 
  ┃ ┗ App.jsx
+ 
  ┣ public
+ 
  ┣ package.json
+ 
  ┗ README.md
+ 
 
 📸 Preview
 
 Visit the live portfolio here:
 🔗 https://portfolio-frontend-iota-indol.vercel.app/
 
+
 📬 Contact Me
 
 If you want to work with me or have any opportunity:
 
-💼 LinkedIn: https://linkedin.com/in/your-link
+💼 LinkedIn: https://www.linkedin.com/in/rashid-ali-a3b30728b/
 
 🐙 GitHub: https://github.com/RashidR18
 
-📧 Email: your-email@gmail.com
+📧 Email: rashidali18november@@gmail.com
+
 
 🧑‍💻 Author
 
 Rashid Ali
 MERN Stack Developer
 Passionate about building modern web applications and responsive user interfaces.
+
 
 ⭐ Support
 
