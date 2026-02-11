@@ -8,13 +8,15 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-    "http://localhost:3000",
-    "https://portfolio-frontend-iota-indol.vercel.app/"
+    "https://portfolio-frontend-iota-indol.vercel.app",
+    "http://localhost:5173"
   ],
-  methods: ["GET","POST","PUT","DELETE"],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type"],
   credentials: true
 }));
+
+app.options("*", cors()); // important
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
